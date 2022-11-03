@@ -724,7 +724,12 @@ footer p {
 		 to {opacity: 1}
 	   }
 	   
-
+	   /* Top left text */
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+  }
 
 
 	   
