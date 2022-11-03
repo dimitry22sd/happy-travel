@@ -9,11 +9,24 @@
   <link rel="shortcut icon" href="../../../favicon.ico">
   <link rel="stylesheet" href="../css happy/happytravel2.css">
   <style>
-    .destinations {
-      background-image: url(../Img/vliegticketsachtergrond.png);
+    .slideshow-container {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
+  background-blend-mode: lighten;
+	animation: gradient 15s ease infinite;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
   </style>
     </head>
